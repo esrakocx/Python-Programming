@@ -1,11 +1,6 @@
-print("Please enter your name: ")
-name = input("Name: ")
-
-print("Please enter your surname: ")
-surname = input("Surname: ")
-
-print("Please enter your number: ")
-number = input("Number: ")
+name = input("Please enter your name: ")
+surname = input("Please enter your surname: ")
+number = input("Please enter your number: ")
 
 info=[name, surname, number]
 
