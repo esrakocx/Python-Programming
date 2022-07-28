@@ -14,7 +14,9 @@ while True:
 
         2. Deposit
 
-        3. Withdraw money\nChose: """)
+        3. Withdraw money
+        
+        4. To exit enter q\nChose: """)
 
         if chose == "1":
             print("Your balance: {}".format(balance))
@@ -31,6 +33,9 @@ while True:
                 continue
             else:
                 print("Insufficient balance")
+        elif chose == "q":
+            print("Exiting...")
+            break
         else:
             print("Invalid transaction")
             continue
