@@ -12,9 +12,9 @@ x -> Multiplication
 ***********************
 """)
 
-number1=float(input("Please enter the first number you want to operate: "))
-number2=float(input("Please enter the second number you want to operate: "))
-operation=input("Please enter the operation you want to do:")
+number1 = float(input("Please enter the first number you want to operate: "))
+number2 = float(input("Please enter the second number you want to operate: "))
+operation = input("Please enter the operation you want to do:")
 
 if operation == "+":
     print("{} + {} = {}".format(number1, number2, number1+number2))

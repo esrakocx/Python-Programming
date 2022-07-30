@@ -1,12 +1,9 @@
 print("~Body Mass Index Calculator~\n")
 
-print("Please enter your height(m):")
-height = float(input("Height:"))
+height = float(input("Please enter your height(m): "))
+weight = float(input("Please enter your weight(kg): "))
 
-print("Please enter your weight(kg):")
-weight = float(input("Weight:"))
-
-index = weight/(height*height)
+index = weight / (height * height)
 print("Your BMI is: {}".format(index))
 
 if index < 18.5:

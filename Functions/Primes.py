@@ -13,14 +13,14 @@ def prime(number):
         return True
 
 while True:
-    number = input("Number: ")
+    number = input("Number is: ")
 
     if number == "q":
         break
     else:
         number = int(number)
 
-        if(prime(number)):
+        if prime(number):
             print(number, "is a prime number.")
         else:
             print(number, "is not a prime number.")
