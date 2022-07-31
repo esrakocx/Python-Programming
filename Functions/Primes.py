@@ -2,7 +2,9 @@ print("~Primes~\n")
 
 
 def prime(number):
-    if number == 1:
+    if number == 0:
+        return False
+    elif number == 1:
         return False
     elif number == 2:
         return True
