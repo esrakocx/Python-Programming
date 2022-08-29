@@ -12,7 +12,7 @@ class Book():
         self.edition = edition
 
     def __str__(self):
-        return "Name: {}\nWriter: {}\nPublisher: {}\nKind: {}\nEdition: {}".format(self.name, self.writer, self.publisher, self.kind, self.edition)
+        return "\nName: {}\nWriter: {}\nPublisher: {}\nKind: {}\nEdition: {}\n".format(self.name, self.writer, self.publisher, self.kind, self.edition)
 
 
 class Library():
